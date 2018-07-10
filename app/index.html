@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css' />
@@ -22,6 +21,7 @@
 
 </head>
 <body>
+    <!-- webiset linke: https://dribbble.com/shots/3689825-Furniture-Collection/attachments/826153 -->
     <nav class="navbar is-transparent">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -39,35 +39,15 @@
       <a class="navbar-item" href="https://bulma.io/">
         Home
       </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="/documentation/overview/start/">
-          Docs
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="/documentation/overview/start/">
-            Overview
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-            Modifiers
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-            Columns
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-            Layout
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-            Form
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-            Elements
-          </a>
-          <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-            Components
-          </a>
-        </div>
-      </div>
+       <a class="navbar-item" href="https://bulma.io/">
+        Collection
+      </a>
+ <a class="navbar-item" href="https://bulma.io/">
+        Shop
+      </a>
+       <a class="navbar-item" href="https://bulma.io/">
+        About
+      </a>
     </div>
 
     <div class="navbar-end">
@@ -96,18 +76,68 @@
     </div>
   </div>
 </nav>
-    <section class="hero is-primary">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Primary title
-      </h1>
-      <h2 class="subtitle">
-        Primary subtitle
-      </h2>
-    </div>
-  </div>
-</section>
+
+<!-- nav ends here -->
+<!-- nav ends here -->
+<div class="columns sidebar-content-wrapper">
+  <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile sidebar-container">
+    <p class="menu-label is-hidden-touch">Navigation</p>
+    <ul class="menu-list">
+      <li>
+        <a href="#" class="">
+          <span class="icon"><i class="fa fa-home"></i></span> Home
+        </a>
+      </li>
+      <li>
+        <a href="#" class="is-active">
+          <span class="icon"><i class="fa fa-table"></i></span> Links
+        </a>
+
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon is-small"><i class="fa fa-link"></i></span> Link1
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon is-small"><i class="fa fa-link"></i></span> Link2
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="">
+          <span class="icon"><i class="fa fa-info"></i></span> About
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+<!-- side bar ends here -->
+<!-- side bar ends here -->
+<div class="column is-10 is-narrow-mobile is-fullheight section is-hidden-mobile content-container">
+<nav class="level">
+    <p class="level-item has-text-centered">
+    <h1 class="title">LIVING ROOM</h1>
+  </p>
+ 
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Price</a>
+  </p>
+
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Brand</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Color</a>
+  </p> 
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Material</a>
+  </p>
+</nav>
+<!-- content-container-nav ends here-->
+<!-- content-container-nav ends here-->
 <div class="section">
     <div class="container has-text-centered">
     <h1 class="is-size-1">TITLE</h1>
@@ -116,24 +146,6 @@
     <button>asdf</button>
 </div>
 </div>
-
-<nav class="level">
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Home</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Menu</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Reservations</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Contact</a>
-  </p>
-</nav>
 
 <div class="tile is-ancestor">
   <div class="tile is-vertical is-8">
@@ -180,7 +192,12 @@
     </article>
   </div>
 </div>
-
+</div>
+<!-- end of content-container -->
+<!-- end of content-container -->
+</div>
+<!-- end of sidebar-content-wrapper -->
+<!-- end of sidebar-content-wrapper -->
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
